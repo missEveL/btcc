@@ -20,6 +20,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { RegisterComponent } from './register/register.component';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AuthInterceptor } from './services/auth.interceptor';
+import { CasesComponent } from './cases/cases.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { AuthInterceptor } from './services/auth.interceptor';
     LoginComponent,
     ProfileComponent,
     PageNotFoundComponent,
-    RegisterComponent
+    RegisterComponent,
+    CasesComponent
   ],
   imports: [
     BrowserModule,

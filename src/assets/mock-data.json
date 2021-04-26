@@ -1,0 +1,42 @@
+[{
+      "Title": "Sun Gym Gang",
+      "Type": [
+        "murder",
+        "theft"
+      ],
+      "Status": [
+        "solved"
+      ],
+      "Description": "The Sun Gym Gang were active in Miami, Florida, during the mid-1990s[1] and were responsible for the murders of Frank Griga and Krisztina Furton along with the kidnapping and extortion of Marc Schiller.[2] The gang was composed mostly of bodybuilders who frequented the Sun Gym in Miami Lakes, Florida[3] including Daniel Lugo and Adrian Doorbal. Pete Collins published a three-part series in the Miami New Times in 1999 and 2000 chronicling the stories of the gang titled 'Pain and Gain'[4] which was then loosely adapted into the 2013 film Pain & Gain directed by Michael Bay.[5]",
+      "Events": [
+        {
+          "DateTime": "May 1995",
+          "Location": "Everglades, FL",
+          "Description": "Frank Griga’s yellow Lamborghini was found abandoned in the Everglades by a state trooper.",
+          "PeopleOfInterest": [
+            {
+              "Name": "Frank Griga",
+              "Age": "33",
+              "Gender": "Male",
+              "Description": "",
+              "Type": [
+                "Victim"
+              ],
+              "Status": "Deceased",
+              "Judgement": "Victim"
+            }
+          ],
+          "References": [
+            {
+              "Type": [
+                "Evidence",
+                "Media"
+              ],
+              "Link": "https://www.oxygen.com/florida-man-murders/crime-news/how-danny-lugos-sun-gym-gang-killed-frank-griga-and-krisztina-furton",
+              "Description": "Oxygen Florida Man Murders Season 1 Episode 1",
+              "Title": "Oxygen Florida Man Murders Season 1 Episode 1"
+            }
+          ]
+        }
+      ]
+    }]
