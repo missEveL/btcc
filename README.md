@@ -1,5 +1,5 @@
 # BTCC App
-An Angular app for BHPL True Crime Club.
+An Angular app for BHPL True Crime Club. Data for cases will be displayed in an interactive timeline / evidence board showcasing key events and people involved.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
 
