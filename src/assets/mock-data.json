@@ -1,42 +1,129 @@
-[{
-      "Title": "Sun Gym Gang",
-      "Type": [
-        "murder",
-        "theft"
-      ],
-      "Status": [
-        "solved"
-      ],
-      "Description": "The Sun Gym Gang were active in Miami, Florida, during the mid-1990s[1] and were responsible for the murders of Frank Griga and Krisztina Furton along with the kidnapping and extortion of Marc Schiller.[2] The gang was composed mostly of bodybuilders who frequented the Sun Gym in Miami Lakes, Florida[3] including Daniel Lugo and Adrian Doorbal. Pete Collins published a three-part series in the Miami New Times in 1999 and 2000 chronicling the stories of the gang titled 'Pain and Gain'[4] which was then loosely adapted into the 2013 film Pain & Gain directed by Michael Bay.[5]",
-      "Events": [
-        {
-          "DateTime": "May 1995",
-          "Location": "Everglades, FL",
-          "Description": "Frank Griga’s yellow Lamborghini was found abandoned in the Everglades by a state trooper.",
-          "PeopleOfInterest": [
-            {
-              "Name": "Frank Griga",
-              "Age": "33",
-              "Gender": "Male",
-              "Description": "",
-              "Type": [
-                "Victim"
-              ],
-              "Status": "Deceased",
-              "Judgement": "Victim"
-            }
-          ],
-          "References": [
-            {
-              "Type": [
-                "Evidence",
-                "Media"
-              ],
-              "Link": "https://www.oxygen.com/florida-man-murders/crime-news/how-danny-lugos-sun-gym-gang-killed-frank-griga-and-krisztina-furton",
-              "Description": "Oxygen Florida Man Murders Season 1 Episode 1",
-              "Title": "Oxygen Florida Man Murders Season 1 Episode 1"
-            }
-          ]
-        }
-      ]
-    }]
+[
+  {
+    "Title": "Sun Gym Gang",
+    "Type": ["murder", "theft"],
+    "Status": ["solved"],
+    "Description": "The Sun Gym Gang were active in Miami, Florida, during the mid-1990s and were responsible for the murders of Frank Griga and Krisztina Furton along with the kidnapping and extortion of Marc Schiller.",
+    "MainImage": {
+        "alt": "Photo of Sun Gym",
+        "src": "https://murderpedia.org/male.L/images/lugo_daniel/sun-gym.jpg"
+      },
+    "Events": [
+      {
+        "DateTime": "May 1995",
+        "Location": "Everglades, FL",
+        "Description": "Frank Griga’s yellow Lamborghini was found abandoned in the Everglades by a state trooper.",
+        "Images": [
+          {
+            "alt": "Photo of Frank Griga’s yellow Lamborghini",
+            "src": "https://media.gettyimages.com/photos/frank-griga-photo-copy-by-marice-cohn-band-herald-staff-picture-id160648423?s=2048x2048"
+          }
+        ],
+        "PeopleOfInterest": [
+          {
+            "Name": "Frank Griga",
+            "Age": "33",
+            "Gender": "Male",
+            "Description": "",
+            "Type": ["Victim"],
+            "Status": "Deceased",
+            "Judgement": "Victim"
+          }
+        ],
+        "References": [
+          {
+            "Type": ["Evidence", "Media"],
+            "Link": "https://www.oxygen.com/florida-man-murders/crime-news/how-danny-lugos-sun-gym-gang-killed-frank-griga-and-krisztina-furton",
+            "Description": "Oxygen Florida Man Murders Season 1 Episode 1",
+            "Title": "Oxygen Florida Man Murders Season 1 Episode 1"
+          }
+        ]
+      },
+      {
+        "DateTime": "May 1995",
+        "Location": "Everglades, FL",
+        "Description": "Frank Griga’s yellow Lamborghini was found abandoned in the Everglades by a state trooper.",
+        "Images": [
+        ],
+        "PeopleOfInterest": [
+          {
+            "Name": "Frank Griga",
+            "Age": "33",
+            "Gender": "Male",
+            "Description": "",
+            "Type": ["Victim"],
+            "Status": "Deceased",
+            "Judgement": "Victim"
+          }
+        ],
+        "References": [
+          {
+            "Type": ["Evidence", "Media"],
+            "Link": "https://www.oxygen.com/florida-man-murders/crime-news/how-danny-lugos-sun-gym-gang-killed-frank-griga-and-krisztina-furton",
+            "Description": "Oxygen Florida Man Murders Season 1 Episode 1",
+            "Title": "Oxygen Florida Man Murders Season 1 Episode 1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Long Island Serial Killer / Gilgo Beach Killer / Craigslist Ripper",
+    "Type": ["murder"],
+    "Status": ["open"],
+    "Description": "The Long Island serial killer is an unidentified suspected serial killer who is believed to have murdered 10 to 16 people over a period of nearly 20 years, mostly prostitutes, and left their bodies in areas on the South Shore of Long Island, New York.",
+    "MainImage": {
+        "alt": "West Gilgo Beach entrance",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/81/Westgilgobeach-2.jpg"
+      },
+    "Events": [
+      {
+        "DateTime": "May 2010",
+        "Location": "Oak Beach, Long Island, NY",
+        "Description": "Suffolk County Police search for Shannan Gilbert, a 24-year-old woman from New Jersey, who was working as an escort and was reported missing on May 1 of that year. She was last seen in the Oak Beach area after she ran from a client's house, where her driver, Michael Pak was waiting outside.",
+        "Images": [
+          {
+            "alt": "Missing Notice for Shannon Gilbert",
+            "src": "https://image.nj.com/home/njo-media/width960/img/jersey-journal/photo/-6e361cc539b17a11.jpg"
+          }
+        ],
+        "PeopleOfInterest": [
+          {
+            "Name": "Shannan Gilbert",
+            "Age": "24",
+            "Gender": "Female",
+            "Description": "",
+            "Type": ["Victim"],
+            "Status": "Deceased",
+            "Judgement": "Victim"
+          }
+        ],
+        "References": [
+          {
+            "Type": ["Media"],
+            "Link": "https://en.wikipedia.org/wiki/Long_Island_serial_killer",
+            "Description": "Wikipedia Page about LISK",
+            "Title": "Wikipedia Page about LISK"
+          },
+          {
+            "Type": ["Media"],
+            "Link": "https://www.nj.com/hudson/2010/12/boyfriend_and_the_driver_of_sh.html",
+            "Description": "Article on nj.com titled: Boyfriend and the driver of Shannon Maria Gilbert recount hours just before Jersey City woman went missing",
+            "Title": "Article on nj.com"
+          }
+        ]
+      },
+      {
+        "DateTime": "December 2010",
+        "Location": "Oak Beach, Long Island, NY",
+        "Description": "A police officer and his dog, on a routine training exercise, discovered the first body: \"the skeletal remains of a woman in a nearly disintegrated burlap sack.\" This discovery led to a search, and three more bodies were found two days later in the same area, on the north side of the Ocean Parkway. Suffolk County Police Commissioner Richard Dormer said, \"Four bodies found in the same location pretty much speaks for itself. It's more than a coincidence. We could have a serial killer.\"",
+        "Images": [
+        ],
+        "PeopleOfInterest": [
+        ],
+        "References": [
+        ]
+      }
+    ]
+  }
+]

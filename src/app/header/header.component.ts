@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavigationEnd, Router } from '@angular/router';
 import { AuthService } from '../services/auth.service';
 
 @Component({
@@ -11,7 +12,22 @@ export class HeaderComponent implements OnInit {
     return this.authService.isLoggedIn;
   }
 
-  constructor(public authService: AuthService) {
+  constructor(
+    public authService: AuthService,
+    private router: Router
+  ) {
+
+    //to reload cases component when home button clicked
+    this.router.routeReuseStrategy.shouldReuseRoute = function () {
+      return false;
+    }
+
+    this.router.events.subscribe((evt) => {
+      if (evt instanceof NavigationEnd) {
+        this.router.navigated = false;
+        window.scrollTo(0, 0);
+      }
+    });
   }
 
   ngOnInit(): void {

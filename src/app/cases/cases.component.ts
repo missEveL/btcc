@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Case } from '../models/case';
+import { Event } from '../models/event';
 import { CaseService } from '../services/case.service';
 
 @Component({
@@ -9,16 +10,21 @@ import { CaseService } from '../services/case.service';
 })
 export class CasesComponent implements OnInit {
   Cases: Case[];
+  Events: Event[];
 
   constructor(
     public CaseService: CaseService
   ) { }
 
   ngOnInit(): void {
+    this.Events = [];
     this.CaseService.GetCases().subscribe((cases: Case[]) => {
       this.Cases = cases;
-      console.log(cases[0].Events[0].Description);
     })
+  }
+
+  showEvents( i:number ) {
+    this.Events = this.Cases[i].Events;
   }
 
 }
