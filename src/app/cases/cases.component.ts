@@ -11,6 +11,7 @@ import { CaseService } from '../services/case.service';
 export class CasesComponent implements OnInit {
   Cases: Case[];
   Events: Event[];
+  caseTitle: String;
 
   constructor(
     public CaseService: CaseService
@@ -18,6 +19,7 @@ export class CasesComponent implements OnInit {
 
   ngOnInit(): void {
     this.Events = [];
+    this.caseTitle = "";
     this.CaseService.GetCases().subscribe((cases: Case[]) => {
       this.Cases = cases;
     })
@@ -25,6 +27,7 @@ export class CasesComponent implements OnInit {
 
   showEvents( i:number ) {
     this.Events = this.Cases[i].Events;
+    this.caseTitle = this.Cases[i].Title;
   }
 
 }
