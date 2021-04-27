@@ -1,4 +1,4 @@
-<div *ngFor="let Case of Cases">
+<!-- <div *ngFor="let Case of Cases">
     <h1>{{Case.Title}}</h1>
     <p>{{Case.Description}}</p>
     <p *ngFor="let type of Case.Type">{{type}}</p>
@@ -6,4 +6,38 @@
     <div *ngFor="let event of Case.Events">
         <p>{{event.Description}}</p>
     </div>
-</div>
+</div> -->
+<div *ngIf="Events.length === 0" class="cases">
+    <mat-card class="card" *ngFor="let Case of Cases; index as i">
+        <mat-card-header>
+          <div mat-card-avatar><mat-icon>gavel</mat-icon></div>
+          <mat-card-title>{{Case.Title}}</mat-card-title>
+          <mat-card-subtitle><span *ngFor="let type of Case.Type">{{type}} </span></mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src='{{Case.MainImage.src}}' alt='{{Case.MainImage.alt}}'/>
+        <mat-card-content>
+          <p>
+            {{Case.Description}}
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button (click)="showEvents(i)">Learn More</button>
+        </mat-card-actions>
+      </mat-card>  
+    </div>    
+    <div class="case">
+        <mat-card class="card" *ngFor="let Event of Events">
+            <mat-card-header>
+              <div mat-card-avatar><mat-icon>fingerprint</mat-icon></div>
+              <mat-card-title>{{Event.DateTime}}</mat-card-title>
+              <mat-card-subtitle>{{Event.Location}}</mat-card-subtitle>
+            </mat-card-header>
+            <img *ngIf="Event.Images.length > 0" mat-card-image src='{{Event.Images[0].src}}' alt='{{Event.Images[0].alt}}'/>
+            <mat-card-content>
+              <p>
+                {{Event.Description}}
+              </p>
+            </mat-card-content>
+          </mat-card> 
+
+    </div>
