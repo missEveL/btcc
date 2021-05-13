@@ -6,11 +6,11 @@ import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http
 import { Observable, throwError } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
 
-import { User } from '../models/user'
+import { User } from '../users/user'
 
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'any'
 })
 
 export class AuthService {
@@ -19,7 +19,7 @@ export class AuthService {
   SIGNIN_URL: string = `${this.API_URL}/auth/signin`;
   USER_PROFILE_URL: string = `${this.API_URL}/test/user`;
   ACCESS_TOKEN_KEY: string = 'x-access-token';
-  USER_PROFILE_ROUTE: string = '/profile';
+  USER_PROFILE_ROUTE: string = '/users/profile';
   headers = new HttpHeaders().set('Content-Type', 'application/json');
   currentUser = {};
 

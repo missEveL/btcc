@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Case } from '../models/case';
-import { Event } from '../models/event';
-import { CaseService } from '../services/case.service';
+import { Case } from './models/case';
+import { Event } from './models/event';
+import { CaseService } from './case.service';
 
 @Component({
   selector: 'app-cases',
